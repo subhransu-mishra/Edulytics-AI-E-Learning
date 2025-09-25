@@ -1,0 +1,20 @@
+
+
+.chat-section {
+  flex: 3; /* Chat area */
+}
+
+.image-section {
+  flex: 1; /* Right-side image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-image {
+  max-width: 80%;
+  height: auto;
+  border-radius: 12px;
+  animation: glowPulse 2.5s infinite ease-in-out;
+}
+
