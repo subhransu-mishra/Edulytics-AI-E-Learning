@@ -25,7 +25,7 @@ export const ChatProvider = ({ children }) => {
       if (aiProvider === "gemini") {
         // Use Gemini API
         const response = await axios({
-          url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyASElfYh0QsXpFmhPJcCF2J93ragN-Eo-I",
+          url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=GEMINI_API_KEY_HERE",
           method: "post",
           data: {
             contents: [{ parts: [{ text: prompt }] }],
