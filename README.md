@@ -1,10 +1,10 @@
-# ChatBot with Multiple AI Providers (Gemini & OpenAI)
+# ChatBot with Multiple AI Providers (Gemini , OpenAI , Deepseek )
 
 This educational platform is designed to break language barriers for students by translating content from English into regional languages using AI-powered chat-based interactions.
 
 ## Features
 
-- Support for multiple AI providers (Gemini and OpenAI)
+- Support for multiple AI providers (Gemini ,OpenAI and Deepseek)
 - Chat history storage per user
 - User authentication
 - Model selection for each chat session
@@ -28,13 +28,17 @@ This educational platform is designed to break language barriers for students by
    - Fill in your MongoDB connection string, JWT secret, and API keys:
 
      ```
-     PORT=5000
-     MONGODB_URI=your_mongodb_connection_string
-     JWT_SECRET=your_jwt_secret
-
-     # AI API Keys
-     GEMINI_API_KEY=your_gemini_api_key
-     OPENAI_API_KEY=your_openai_api_key
+      PORT=5000
+      Db_url=your_mongodb_connection_string
+      JWT_SECRET=your_jwt_secret
+      Password=password_here
+      Gmail=gmail_here
+      Activation_sec=activation_secret_here
+      
+      # AI API Keys
+      GEMINI_API_KEY=Gemini_api_key_here
+      OPENAI_API_KEY=your_openai_api_key
+      DEEPSEEK_API_KEY=your_deepseek_api_key
      ```
 
 4. Start the backend server:
